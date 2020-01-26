@@ -59,7 +59,7 @@ steps:
 - task: Docker@2
   displayName: 'Build an image'
   inputs:
-    repository: $(imageName)
+    repository: helloworldrafael
     command: buildAndPush
     containerRegistry: DockerhubHelloWorldRafael
     Dockerfile: my-app/Dockerfile
