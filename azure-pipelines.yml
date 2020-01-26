@@ -61,5 +61,5 @@ steps:
   inputs:
     repository: helloworldrafael
     command: buildAndPush
-    containerRegistry: DockerhubHelloWorldRafael
+    containerRegistry: AzureHelloWorldRafael
     Dockerfile: my-app/Dockerfile
