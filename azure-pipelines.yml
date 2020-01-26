@@ -61,5 +61,5 @@ steps:
   inputs:
     repository: $(imageName)
     command: buildAndPush
-    containerRegistry: DockerhubHellowWorldRafael
+    containerRegistry: DockerhubHelloWorldRafael
     Dockerfile: my-app/Dockerfile
